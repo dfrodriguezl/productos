@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { Producto } from '../../models/producto';
 
 /*
   Generated class for the ProductosProvider provider.
@@ -15,7 +16,7 @@ export class ProductosProvider {
   }
 
   obtenerProductos(){
-    return this.http.get('assets/data.json');    
+    return this.http.get<Producto[]>('assets/data.json');    
   };
 
 }

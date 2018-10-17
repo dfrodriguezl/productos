@@ -5,7 +5,8 @@
     "descripcion": "Nuestra camiseta de algodón orgánico, con su cintura ligeramente ajustada y elegante cuello en V, está diseñada para ser más plana. ¡Querrás uno en cada color!",
     "precio": "$17.000",
     "imagen": "./assets/imgs/1.jpg",
-    "genero": "Mujer"
+    "genero": "Mujer",
+    "bestSeller": true
   },
   {
     "id": "483",

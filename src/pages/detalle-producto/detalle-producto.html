@@ -18,21 +18,29 @@
     <img [src]="producto.imagen" alt="">
   </ion-card>
   <ion-card>
-    <ion-card-header>Descripcion:</ion-card-header>
+    <ion-card-header><b>Descripcion:</b></ion-card-header>
     <ion-card-content>
       {{producto.descripcion}}
     </ion-card-content>
+    <ion-item >
+      Precio
+      <ion-badge item-end>{{producto.precio}}</ion-badge>
+    </ion-item>
+    <ion-item>
+      Genero
+      <ion-badge item-end>{{producto.genero}}</ion-badge>
+    </ion-item>
   </ion-card>
-  <ion-card>
-      <ion-card-header>Precio:</ion-card-header>
+  <!-- <ion-card>
+      <ion-card-header><b>Precio:</b></ion-card-header>
       <ion-card-content>
         {{producto.precio}}
       </ion-card-content>
     </ion-card>
     <ion-card>
-        <ion-card-header>Genero:</ion-card-header>
+        <ion-card-header><b>Genero:</b></ion-card-header>
         <ion-card-content>
           {{producto.genero}}
         </ion-card-content>
-      </ion-card>
+      </ion-card> -->
 </ion-content>

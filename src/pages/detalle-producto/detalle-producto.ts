@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { Producto } from '../../models/producto';
 
 /**
  * Generated class for the DetalleProductoPage page.
@@ -14,7 +15,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'detalle-producto.html',
 })
 export class DetalleProductoPage {
-  producto = {};
+  producto:Producto = {};
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
